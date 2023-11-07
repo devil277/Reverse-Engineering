@@ -72,15 +72,9 @@ def register():
             os.system('clear')
             print logo
             print 38 * '-'
-            print '\n\x1b[1;97m{\x1b[1;32m\xe2\x80\xa2\x1b[1;97m} Your ID  : \x1b[1;32m' + dog
-            print '\x1b[1;97m{\x1b[1;32m\xe2\x80\xa2\x1b[1;97m} Status   : \x1b[1;91mNot Approval'
+        
             print '\n\x1b[1;97m'
-            zew = raw_input('[\x1b[1;91m!\x1b[1;97m] Press enter to confirm the ID ')
-            os.system('xdg-open https://wa.me/923100209977')
-            os.system('exit')
-    except (KeyError, IOError):
-        not_register()
-
+            
 
 def not_register():
     os.system('clear')
